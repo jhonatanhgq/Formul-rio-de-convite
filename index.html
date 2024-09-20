@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de convite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div id="app">
+        <aside>
+            <div class="aside-container">
+                <header>
+                    <img src="/assets/Logo.svg" alt="">
+                    <h1 class="logo">Festivite</h1>
+                    <p>Crie um convite digital para o seu evento</p>
+                </header>
+            </div>
+        </aside>
+        <main>
+            <div class="main-container">
+                <h2 class="heading-md">Crie seu convite</h2>
+                <div class="h2icone">
+                    <img src="./assets/icones/calendar.svg" alt="calendario icone">
+                    <h3 class="heading-sm">Sobre o evento</h3>
+                </div>
+                <div class="titulo body-sm input-wrapper">
+                    <label for="event-name">Título</label>
+                    <input id="event-name" name="event-name" type="text" placeholder="Nome do evento">
+                </div>
+                <div class="flex">
+                    <div class="body-sm input-wrapper">
+                        <label for="start">Início</label>
+                        <input class="body-sm uppercase" type="datetime-local" id="start" name="start" lang="pt-br">
+                    </div>
+                    <div class="body-sm input-wrapper">
+                        <label for="end">Fim</label>
+                        <input class="uppercase" type="datetime-local" id="end" name="end" lang="pt-br">
+                    </div>
+                </div>
+                
+                <form>
+                    <legend class="flex legend body-sm" for="select">Tipo</legend>
+                <div class="grid">
+                    <div class="flex type">
+                        <div class="build">
+                            <input id="in-person" type="radio" name="select" value="in-person">
+                            <label class="in-person" for="in-person">Presencial</label>
+                        </div>
+                        <div class="online">
+                            <input id="online" type="radio" name="select" value="online">
+                            <label class="online" for="online">Online</label>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="local body-sm ">
+                    <legend class="body-sm" for="select">Local</legend>
+                         <label for="local"></label>
+                         <input type="text" id="local" name="description" placeholder="Link ou endereço">
+                     </div>
+                </div>
+                
+                <div class="description">
+                    <legend class="body-sm input-wrapper">Descrição</legend>
+                    <textarea placeholder="Escreva sobre os detalhes do evento" name="Descrição" id="" cols="30" ></textarea>
+                </div>
+                    
+                    <div class="h2icone persona">
+                    <img src="./assets/icones/paintbrush-vertical.svg" alt="calendario icone">
+                    <h3 class="heading-sm">Personalização</h3>
+                </div>
+                   
+                <legend class="titulo body-sm">Cor principal</legend>
+                
+                <div class="color">
+                    <label for="brand-color-light"></label>
+                    <input type="radio" id="brand-color-light" name="color" value=""/>
+
+                    <label for="accent-navy"></label>
+                    <input type="radio" id="accent-navy" name="color" value=""/>
+
+                    <label for="accent-purple"></label>
+                    <input type="radio" id="accent-purple" name="color" value=""/>
+
+                    <label for="accent-fuschia"></label>
+                    <input type="radio" id="accent-fuschia" name="color" value=""/>
+
+                    <label for="accent-pink"></label>
+                    <input type="radio" id="accent-pink" name="color" value=""/>
+
+                    <label for="color-danger"></label>
+                    <input type="radio" id="color-danger" name="color" value=""/>
+
+                    <label for="accent-orange"></label>
+                    <input type="radio" id="accent-orange" name="color" value=""/>
+
+                    <label for="accent-yellow"></label>
+                    <input type="radio" id="accent-yellow" name="color" value=""/>
+
+                    <label for="accent-lime"></label>
+                    <input type="radio" id="accent-lime" name="color" value=""/>
+
+                    <label for="accent-green"></label>
+                    <input type="radio" id="accent-green" name="color" value=""/>
+
+                    <label for="accent-cyan"></label>
+                    <input type="radio" id="accent-cyan" name="color" value=""/>
+                    </div>
+                    
+
+                
+                
+                
+            </div>
+                </form>
+                 </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

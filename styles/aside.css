@@ -1,0 +1,25 @@
+ aside {
+  margin-left: 1.25rem;
+  padding: 2rem;
+  background-image: url(/assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: auto;
+  max-height: auto;
+  border-radius: 0.75rem;
+  width: 25rem;
+  height: 45.5rem;
+  align-items: center;
+}
+
+header img {
+  width: 2.85rem;
+  height: 3rem;
+   /* margin-bottom: 1rem; */
+}
+
+header p {
+  color: var(--text-body);
+  font: var(--font-family-open-sans);
+  margin-top: .25rem;
+} 

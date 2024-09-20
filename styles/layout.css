@@ -1,0 +1,42 @@
+/* #app {
+  display: grid;
+  grid-template-columns: 27.5rem 72.5rem;
+
+  height: 100vh;
+  /* overflow: hidden;  *
+  margin-top: 1.25rem;
+}
+
+main {
+  /* margin-left: 80px; *
+  justify-content: space-between;
+  /* border: 1px solid white; *
+  border-radius: .75rem;
+  
+  
+  /* overflow: hidden; *
+  background-color: var(--shape-body);
+  
+  & .main-container {
+    
+    margin: 8.125rem;
+    /* display: ; *
+  }
+}
+
+.h2icone {
+  align-items: center;
+  display: flex;
+  gap: .75rem;
+  margin-bottom: 1.5rem;
+}
+
+.h2icone img {
+  height: 1.5rem;
+  width: 1.5rem;
+  }
+
+.main-container {
+  font-family: var(--text-body);
+  font: var(--shape-body);  
+} */
