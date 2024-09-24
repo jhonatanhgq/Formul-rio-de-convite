@@ -372,3 +372,34 @@ input[type="datetime-local"] {
   background-color: var(--accent-purple);
 }
 
+#accent-fuschia {
+  background-color: var(--accent-fuschia);
+}
+
+#accent-pink {
+  background-color: var(--accent-pink);
+}
+
+#color-danger {
+  background-color: var(--color-danger);
+}
+
+#accent-orange {
+  background-color: var(--accent-orange);
+}
+
+#accent-yellow  {
+  background-color: var(--accent-yellow);
+}
+
+#accent-lime {
+  background-color: var(--accent-lime);
+}
+
+#accent-green {
+  background-color: var(--accent-lime);
+}
+
+#accent-cyan {
+  background-color: var(--accent-cyan);
+}
