@@ -43,26 +43,28 @@
                     </div>
                 </div>
                 
+                <div class="flex">
                 <form>
                     <legend class="flex legend body-sm" for="select">Tipo</legend>
-                <div class="grid">
-                    <div class="flex type">
-                        <div class="build">
-                            <input id="in-person" type="radio" name="select" value="in-person">
-                            <label class="in-person" for="in-person">Presencial</label>
+                    <div class="grid">
+                        <div class="flex type">
+                            <div class="build">
+                                <input id="in-person" type="radio" name="select" value="in-person">
+                                <label class="in-person" for="in-person">Presencial</label>
+                            </div>
+                            <div class="online">
+                                <input id="online" type="radio" name="select" value="online">
+                                <label class="online" for="online">Online</label>
+                            </div>
                         </div>
-                        <div class="online">
-                            <input id="online" type="radio" name="select" value="online">
-                            <label class="online" for="online">Online</label>
+                        
+                        
+                        <div class="local body-sm input-wrapper ">
+                            <legend class="body-sm" for="select">Local</legend>
+                            <label for="local"></label>
+                            <input type="text" id="local" name="description" placeholder="Link ou endereço">
                         </div>
                     </div>
-                    
-                    
-                    <div class="local body-sm ">
-                    <legend class="body-sm" for="select">Local</legend>
-                         <label for="local"></label>
-                         <input type="text" id="local" name="description" placeholder="Link ou endereço">
-                     </div>
                 </div>
                 
                 <div class="description">
@@ -114,64 +116,173 @@
 
 
 
-                    <legend class="titulo body-sm">Tema do evento</legend>
 
-                    <div class="grid-theme body-xs">
-                        <div>
-                            <img src="./assets/fotos/Image.png" alt="">
-                            <span>Aniversário</span>
+
+                    <legend class="titulo body-sm">Tema do evento</legend>
+                    
+                    <div class="event body-sm">
+
+                        <label for="event">
+                        <input              
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Aniversário"
+                        />
+                        <div class="card">           
+                        <img src="/assets/fotos/Image.png" alt="">
+                        <figcaption>Aniversário</figcaption>
+                        </div>         
+                    </label>              
+                            
+                        <label for="event">
+                        <input 
+                        type="radio" 
+                        id="event" 
+                        name="event" 
+                        placeholder="Infantil"
+                        />
+                        <div class="card">     
+                        <img src="/assets/fotos/Image-1.png" alt="">
+                        <figcaption>Infantil</figcaption>              
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-1.png" alt="">
-                            <span>Infantil</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Formatura"
+                        />
+                        <div class="card">
+                        <img src="/assets/fotos/Image-2.png" alt="">
+                        <Figcaption>Formatura</Figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-2.png" alt="">
-                            <span>Formatura</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Casamento"
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-3.png" alt="">
+                        <figcaption>Casamento</figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-3.png" alt="">
-                            <span>Casamento</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Chá de bebê"
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-4.png" alt="">
+                        <figcaption>Chá de bebê</figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-4.png" alt="">
-                            <span>Chá de bebê</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Chá de panela"
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-5.png" alt="">
+                        <figcaption>Chá de panela</figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-5.png" alt="">
-                            <span>Chá de panela</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Carnaval"
+                        />
+                        <div class="card">
+                        <img src="/assets/fotos/Image-6.png" alt="">
+                        <figcaption>Carnaval</figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-6.png" alt="">
-                            <span>Carnaval</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Páscoa"
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-7.png" alt="">
+                        <figcaption>Páscoa</figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-7.png" alt="">
-                            <span>Páscoa</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="São João"
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-8.png" alt="">
+                        <figcaption>São joão</figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-8.png" alt="">
-                            <span>São João</span>
+                        </label>
+
+                        <label for="event">
+                        <input
+                            type="radio"
+                            id="event"
+                            name="event"
+                            placeholder="Halloween"
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-9.png" alt="">
+                        <figcaption>Halloween</figcaption>              
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-9.png" alt="">
-                            <span>Halloween</span>
+                        </label>
+
+                        <label for="event">
+                        <input 
+                            type="radio" 
+                            id="event" 
+                            name="event" 
+                            placeholder="Natal" 
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-10.png" alt="">
+                        <figcaption>Natal</figcaption>
                         </div>
-                        <div>
-                            <img src="./assets/fotos/Image-10.png" alt="">
-                            <span>Natal</span>
-                        </div>
-                        <div>
-                            <img src="./assets/fotos/Image-11.png" alt="">
-                            <span>Outro</span>
+                        </label>
+
+                        <label for="">
+                        <input 
+                            type="radio" 
+                            id="event" 
+                            name="event" 
+                            placeholder="Outro" 
+                        />
+                        <div class="card">  
+                        <img src="/assets/fotos/Image-11.png" alt="">
+                        <figcaption>Outro</figcaption>
+                            </div>
+                        </label>
                         </div>
                         
 
 
-                    </div>
-
                     
-                    <legend class=" body-sm">Estilo</legend>
+                    <legend class="body-sm">Estilo</legend>
                     
                         <div class="flex toggle">
                             <div class="switch__container">
