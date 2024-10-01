@@ -1,27 +1,25 @@
-/* #app {
+#app {
   display: grid;
-  grid-template-columns: 27.5rem 72.5rem;
-
+  grid-template-columns: 27.5rem 51.25rem;
   height: 100vh;
-  /* overflow: hidden;  *
   margin-top: 1.25rem;
 }
 
 main {
-  /* margin-left: 80px; *
+  overflow: auto;
   justify-content: space-between;
-  /* border: 1px solid white; *
   border-radius: .75rem;
-  
-  
-  /* overflow: hidden; *
   background-color: var(--shape-body);
   
-  & .main-container {
-    
-    margin: 8.125rem;
-    /* display: ; *
+  & .main-container { 
+    margin-left: 8.125rem;
+    margin-right: 8.125rem;
+    margin-block: 5rem;
   }
+}
+
+main::-webkit-scrollbar{
+  width: 15px;
 }
 
 .h2icone {
@@ -34,9 +32,24 @@ main {
 .h2icone img {
   height: 1.5rem;
   width: 1.5rem;
-  }
+}
 
 .main-container {
   font-family: var(--text-body);
   font: var(--shape-body);  
-} */
+}
+
+body {
+  overflow: hidden;
+  background-color: var(--shape-background);
+}
+
+h2 {
+  margin-bottom: 2.5rem;
+}
+
+h3 {
+  display: flex;
+  gap: 2px;
+  padding: 2px;
+}

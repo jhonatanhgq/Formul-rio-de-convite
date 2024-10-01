@@ -1,4 +1,4 @@
- aside {
+aside {
   margin-left: 1.25rem;
   padding: 2rem;
   background-image: url(/assets/Background.png);
@@ -15,11 +15,16 @@
 header img {
   width: 2.85rem;
   height: 3rem;
-   /* margin-bottom: 1rem; */
 }
 
 header p {
   color: var(--text-body);
   font: var(--font-family-open-sans);
   margin-top: .25rem;
-} 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,4 +1,4 @@
-/* Leckerli One
+/* Leckerli One */
 .logo { 
   font-family: "Leckerli One", cursive;
   font-size: 2.5rem;
@@ -8,7 +8,7 @@
   
 }
 
-/* Baloo 2 
+/* Baloo 2 */
 .heading-md {
   font-weight: bold;
   font-size: 1.75rem;
@@ -25,7 +25,7 @@
   color: var(--text-heading);
 }
 
-/* Open Sans 
+/* Open Sans */
 .body-md { 
   font-weight: 500;
   font-size: 1rem;
@@ -46,23 +46,10 @@
   font-size: 0.75rem;
   line-height: auto;
   font-family: "Open Sans", sans-serif;
-  /* color: var(--text-body);
+  /* color: var(--text-body); */
 }
 
 :root {
- 
-  /***** --font-family-leckerli: "Leckerli One", cursive;
-  --logo: 400 2.5rem/auto var(--font-family-leckerli);
-
-  --font-family-baloo: "Baloo 2", sans-serif;
-  --heading-md: bold 1.75rem/auto var(--font-family-baloo);
-  --heading-sm: bold 1.125rem/auto var(--font-family-baloo);
-
-  --font-family-open-sans: "Open Sans", sans-serif;
-  --body-md: 500 1rem/auto var(--font-family-open-sans);
-  --body-sm: 500 0.875rem/auto var(--font-family-open-sans); 
-  --body-xs: 500 0.75rem/auto var(--font-family-open-sans); ****
-
   --brand-color-light: #59B2FF;
   --brand-color-mid: #3487CF;
   --brand-color-dark: #1D6FB6;
@@ -92,25 +79,46 @@
   --text-heading: #F9F9F9;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
+#brand-color-light {
+  background-color: var(--brand-color-light);
 }
 
-body {
-  /* overflow: hidden; 
-  background-color: #131516;
+#accent-navy {
+  background-color:var(--accent-navy);
+}
 
-  
+#accent-purple {
+  background-color: var(--accent-purple);
 }
-h2 {
-  margin-bottom: 2.5rem;
+
+#accent-fuschia {
+  background-color: var(--accent-fuschia);
 }
-h3 {
-  display: flex;
-  gap: 2px;
-  /* margin-left: 2px;
-  padding: 2px;
-} */
+
+#accent-pink {
+  background-color: var(--accent-pink);
+}
+
+#color-danger {
+  background-color: var(--color-danger);
+}
+
+#accent-orange {
+  background-color: var(--accent-orange);
+}
+
+#accent-yellow  {
+  background-color: var(--accent-yellow);
+}
+
+#accent-lime {
+  background-color: var(--accent-lime);
+}
+
+#accent-green {
+  background-color: var(--accent-lime);
+}
+
+#accent-cyan {
+  background-color: var(--accent-cyan);
+}
