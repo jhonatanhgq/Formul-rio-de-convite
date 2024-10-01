@@ -129,8 +129,6 @@ main {
     margin-left: 8.125rem;
     margin-right: 8.125rem;
     margin-block: 5rem;
-    /* margin-left: auto; */
-    /* margin: 5rem; */
   }
 }
 
@@ -320,7 +318,6 @@ input[type="datetime-local"] {
 
 .description {
   & legend {
-    margin-top: 1rem;
     margin-bottom: .75rem;
   }
 }
@@ -547,6 +544,7 @@ margin-top: -25px;
 }
 
 .right-content {
+  margin-bottom: 48px;
   & div {
     color:var(--text-heading);
     margin-top: 1rem;
@@ -564,19 +562,8 @@ margin-top: -25px;
   }
 }
 
-.contato {
-  width: 560px;
-  height: 246px;
-  
-  & h3 {
-    margin-top: -38px;
-    margin-left: 45px;
-  }
-  
-}
-
-
 .terms {
+  margin-bottom: 48px;
   color: var(--text-body);
 
   
@@ -638,4 +625,57 @@ input:focus, label:focus, textarea:focus  {
 
  textarea:hover {
   background-color: var(--shape-hover);
+}
+
+.error {
+  & label {
+    display: flex;
+
+    margin-bottom: 12px;
+  }
+  
+  & input {
+    border: 2px solid var(--color-danger);
+  }
+  
+  & span {
+    display: flex;
+    color: var(--color-danger);
+    margin-left: 24px;
+    margin-bottom: 15px;
+    margin-top: -20px;
+    
+  }
+  
+  & img {
+    width: 16px;
+    height: 16px;
+  }
+  
+}
+
+.mail {
+  margin-bottom: 48px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--input-stroke);
+  margin: 20px 0;
+  margin-bottom: 40px;
+}
+
+.ticket {
+  display: flex;
+  align-items: center;
+  color: var(--text-heading);
+  border: 1px solid var(--brand-color-dark);
+  width: 177px;
+  height: 48px;
+  background-color: var(--brand-color-dark);
+  border-radius: 8px;
+  justify-content:space-evenly;
+  text-align: right;
+  margin-left: auto; 
 }
